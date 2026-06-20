@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: >-
+  From Hypothesis to Reality: Scale-Dependent Universality Classes
+  in Earth's Seismotectonic Rhythms
+message: If you use this software or data, please cite it using this metadata.
+type: software
+authors:
+  - given-names: Ruqing
+    family-names: Chen
+    email: ruqing@hotmail.com
+    affiliation: 'GUT Geoservice Inc., Montreal, Canada'
+repository-code: 'https://github.com/Ruqing1963/fault-rmt-phase-framework'
+abstract: >-
+  A complete random-matrix-theory investigation of earthquake timing,
+  from forward-modeling hypothesis through empirical validation across
+  eight global fault zones (USGS/ANSS, 1970-2024). Finds scale-dependent
+  universality: Omori clustering at the cascade scale, Poisson noise at the
+  mainshock scale, and GOE repulsion at geological-epoch scales. The Omori
+  p-exponent, not a mainshock repulsion parameter, is the physical invariant.
+keywords:
+  - random matrix theory
+  - earthquake statistics
+  - Omori-Utsu law
+  - declustering
+  - scale-dependent universality
+  - forward modeling
+  - ETAS
+  - GOE
+license: MIT
+version: 2.0.0
+date-released: '2026-06-19'

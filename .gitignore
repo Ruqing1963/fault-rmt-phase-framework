@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+pg-*.jpg
+pv-*.jpg
+chk-*.jpg
