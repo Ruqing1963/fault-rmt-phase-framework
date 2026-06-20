@@ -1,0 +1,200 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{xurl}
+\onehalfspacing
+\hypersetup{colorlinks=true,linkcolor=blue!60!black,citecolor=blue!60!black,urlcolor=blue!60!black,breaklinks=true}
+
+\title{\textbf{From Hypothesis to Reality: Scale-Dependent\\
+Universality Classes in Earth's Seismotectonic Rhythms}\\[4pt]
+\large A Random Matrix Theory Investigation, from Forward Modeling\\
+to Empirical Validation Across Eight Global Fault Zones}
+
+\author{Ruqing Chen\\
+\textit{GUT Geoservice Inc., Montreal, Canada}\\
+\texttt{ruqing@hotmail.com}}
+\date{June 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We test whether the temporal organization of earthquakes conforms to the universality classes of random matrix theory (RMT), following a complete scientific arc from hypothesis through forward modeling to empirical validation. \textbf{Part~I (hypothesis)}: motivated by elastic-rebound theory, we hypothesize that fault systems occupy a gradient of RMT classes---from Gaussian-Orthogonal/Unitary-Ensemble (GOE/GUE) level repulsion on simple locked faults to Poisson randomness in complex media---indexed by a repulsion parameter $\hat\beta$. Using forward physical modeling with synthetic catalogs calibrated to published Gutenberg--Richter parameters, we demonstrate the predicted gradient and characterize the estimator's bias and statistical power. \textbf{Part~II (empirical test)}: we then confront this hypothesis with real seismicity from eight globally distributed fault zones (USGS/ANSS, 1970--2024), processed through magnitude homogenization, completeness estimation, and dual declustering. The hypothesis is \emph{rejected at the mainshock scale}: declustered mainshock spacings collapse onto the Poisson distribution for all eight zones ($\langle r\rangle\approx0.39$), with no GOE signal. \textbf{Part~III (resolution)}: rather than a null result, this reveals a richer truth. The full catalogs are strongly clustered (coefficient of variation $1.1$--$3.8$; Gamma shape $\gamma=0.16$--$0.69$), and isolating the cluster process yields an Omori--Utsu decay exponent $p$ that does \emph{not} collapse and varies systematically with tectonic setting ($p\approx1.28$ for the dry Parkfield segment versus $0.6$--$0.9$ for fluid-rich subduction). We conclude that Earth's seismotectonic rhythms occupy three distinct universality classes at three temporal scales---Omori clustering (hours--days), Poisson noise (years--decades), and GOE repulsion at geological-epoch scales (Myr, from a companion study)---and that the Omori $p$-exponent, not a mainshock repulsion parameter, is the physically meaningful invariant distinguishing tectonic environments.
+
+\medskip
+\noindent\textbf{Keywords:} random matrix theory; earthquake statistics; Omori--Utsu law; declustering; scale-dependent universality; forward modeling; inter-event times; ETAS
+
+\medskip
+\noindent\textbf{Code/data:} \url{https://github.com/Ruqing1963/fault-rmt-phase-framework}\\
+\textbf{Companion geological study:} \url{https://zenodo.org/records/20766310}
+\end{abstract}
+
+\section{Introduction}
+
+Whether the timing of earthquakes carries ``memory'' is a central question in statistical seismology. Reid's elastic-rebound theory \citep{reid1910} predicts quasi-periodic recurrence on individual faults, which would manifest as a suppression of short inter-event times---the seismic analog of quantum-mechanical level repulsion described by random matrix theory (RMT) \citep{wigner1957,mehta2004}. The Dyson symmetry index $\beta$ quantifies this repulsion, with $\beta=0$ (Poisson, no memory), $\beta=1$ (Gaussian Orthogonal Ensemble, GOE), and $\beta=2$ (Gaussian Unitary Ensemble, GUE).
+
+This paper presents a complete investigation of that question, structured as a scientific arc. We first develop, through forward physical modeling, the hypothesis that fault systems occupy a gradient of RMT universality classes controlled by geological complexity and fluid involvement (Part~I). We then test this hypothesis against real seismicity from eight global fault zones (Part~II). The test rejects the hypothesis at the mainshock scale---but in doing so reveals a more interesting structure: a \emph{scale-dependent} organization in which the same fault occupies different universality classes at different temporal scales (Part~III).
+
+We present the rejected hypothesis in full rather than discarding it, for two reasons. First, scientific transparency: the forward-modeling predictions define precisely what we expected, which is necessary to appreciate how the real data overturn it. Second, methodological value: the forward model validates the analysis pipeline and quantifies its biases, without which the empirical results could not be properly interpreted. We are explicit throughout that Part~I uses \emph{synthetic} data for hypothesis generation and pipeline validation, not as a source of empirical claims.
+
+The investigation connects to a foundational result: Corral \citep{corral2004} showed that earthquake recurrence-time distributions exhibit universal scaling dominated by clustering, governed by the Omori--Utsu law \citep{utsu1995}. Our contribution is to place this clustering within a unified RMT-classification framework spanning twelve orders of magnitude in time, and to show that the Omori $p$-exponent---once the cluster process is properly isolated---is the non-collapsing physical invariant that the mainshock-repulsion parameter was mistakenly expected to be.
+
+% ═══════════════════════════════════════════════════════════
+\part*{Part I --- Hypothesis: A Forward-Modeling Framework}
+\addcontentsline{toc}{section}{Part I}
+% ═══════════════════════════════════════════════════════════
+
+\section{The Repulsion-Gradient Hypothesis}
+
+We hypothesize three regimes of fault behavior: (i)~geometrically simple, locked strike-slip faults act as stress-cycling oscillators with strong inter-event repulsion ($\beta\to2$); (ii)~fluid-rich subduction interfaces experience pore-pressure modulation that partially decorrelates timing ($\beta\sim1$); (iii)~ancient intraplate fracture zones scatter stress so thoroughly that single-fault memory is erased ($\beta\to0$). The physical reasoning is that the stress shadow following a rupture \citep{stein1999} creates a temporal ``forbidden zone'' analogous to eigenvalue repulsion, which fluids \citep{saffer2003} and structural complexity progressively dismantle.
+
+\section{Forward Modeling and Pipeline Validation}
+
+To test this hypothesis before committing to the data-engineering effort of assembling real catalogs, we built a forward model. For each of eight representative fault zones we generated synthetic catalogs using a Wigner--Dyson point process with a prescribed $\beta_{\rm in}$ assigned from physical reasoning, calibrated to published Gutenberg--Richter rates, then analyzed them blind with the same pipeline later applied to real data. \textbf{These are synthetic catalogs used for hypothesis generation and pipeline validation only.}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.78\textwidth]{figs/syn_phase_diagram.pdf}
+\caption{Synthetic phase diagram (hypothesis). Forward-modeled fault zones span a gradient from GUE-class (simple strike-slip) through GOE (fluid-rich subduction) to the Poisson boundary (complex intraplate). This is the predicted picture to be tested against real data in Part~II.}
+\label{fig:synphase}
+\end{figure}
+
+Two diagnostics, essential for interpreting the later empirical results, emerge from the forward model. First, the $\langle r\rangle$-based estimator of $\hat\beta$ is substantially biased: it overestimates low $\beta$ and saturates near the GUE ceiling for $\beta\gtrsim1.2$ (Figure~\ref{fig:synrecov}). Consequently only the \emph{ordering} of $\hat\beta$ is reliable, not its absolute value. Second, a power analysis shows that the Kolmogorov--Smirnov (KS) test rejects Poisson with power exceeding 0.99 for sample sizes $n\gtrsim80$; thus, in the empirical analysis, a non-rejection of Poisson at such sample sizes is meaningful rather than a power artifact.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{figs/syn_beta_recovery.pdf}
+\caption{Estimator-bias diagnostic from the forward model. Recovered $\hat\beta$ (blue) systematically exceeds the input $\beta$ (dashed line) for low $\beta$ and saturates at high $\beta$. Only the ordering of $\hat\beta$ is trustworthy.}
+\label{fig:synrecov}
+\end{figure}
+
+\noindent\textbf{Part~I summary.} The forward model demonstrates that, \emph{if} the repulsion-gradient hypothesis were true, our pipeline would detect it (subject to the quantified estimator bias). This establishes a falsifiable prediction---a GOE--Poisson gradient across tectonic regimes---and the diagnostic tools to test it. We now confront this prediction with reality.
+
+% ═══════════════════════════════════════════════════════════
+\part*{Part II --- Empirical Test: The Hypothesis Fails at the Mainshock Scale}
+\addcontentsline{toc}{section}{Part II}
+% ═══════════════════════════════════════════════════════════
+
+\section{Real Data and Processing}
+
+We obtained instrumental catalogs (1970--2024) from the USGS ComCat/ANSS database for the same eight fault zones across three tectonic regimes: strike-slip (Parkfield/San Andreas, North Anatolian Fault, Alpine Fault), subduction (Nankai, Chile, Cascadia), and intraplate (Charlevoix, Longmenshan). Raw catalog sizes ranged from 99 to 3551 events.
+
+Each catalog passed through four stages. (1)~\emph{Magnitude homogenization} to moment magnitude $M_w$ via Scordilis \citep{scordilis2006} global regressions. (2)~\emph{Completeness}: $M_c$ estimated by the maximum-curvature method and applied as a cutoff. (3)~\emph{Declustering} by two independent algorithms---Gardner--Knopoff windowing \citep{gardner1974} and ETAS stochastic declustering \citep{zhuang2002} (200 realizations)---for robustness. (4)~\emph{Spectral statistics}: the normalized spacing distribution, spacing ratio $\langle r\rangle$ \citep{atas2013}, KS tests, and coefficient of variation.
+
+\section{Result: Universal Poisson Collapse}
+
+After declustering, all eight zones yield $\langle r\rangle$ near the Poisson value of 0.386, and in no case is GOE or GUE the preferred fit (Table~\ref{tab:main}, column $\langle r\rangle_{\rm dec}$). Both declustering algorithms agree for every zone. \textbf{The predicted GOE--Poisson gradient is not realized: it collapses to a uniform Poisson plane.} Given the power analysis from Part~I (power $\approx1.0$ at all these sample sizes), this collapse is a genuine rejection of the hypothesis, not a detection failure.
+
+\begin{table}[H]
+\centering
+\caption{Real-data results across all scales. $\langle r\rangle_{\rm dec}$: declustered mainshock spacing ratio (ETAS). $\langle r\rangle_{\rm full}$, CV, $\gamma$: full-catalog spacing ratio, coefficient of variation, Gamma shape. AF\%: aftershock fraction. $p$: Omori exponent of the isolated cluster process.}
+\label{tab:main}
+\small
+\begin{tabular}{llcccccc}
+\toprule
+Fault & Regime & $\langle r\rangle_{\rm dec}$ & $\langle r\rangle_{\rm full}$ & CV & $\gamma$ & AF\% & $p$ \\
+\midrule
+Parkfield & Strike-slip & 0.396 & 0.332 & 2.30 & 0.27 & 62\% & 1.28 \\
+NAF & Strike-slip & 0.418 & 0.325 & 1.46 & 0.30 & 48\% & 0.96 \\
+Alpine & Strike-slip & 0.454 & 0.374 & 1.90 & 0.38 & 22\% & 0.65 \\
+Chile & Subduction & 0.380 & 0.342 & 1.53 & 0.31 & 49\% & 0.88 \\
+Nankai & Subduction & 0.426 & 0.370 & 1.08 & 0.55 & 27\% & 0.61 \\
+Cascadia & Subduction & 0.368 & 0.338 & 1.58 & 0.31 & 58\% & 0.76 \\
+Longmenshan & Intraplate & 0.360 & 0.366 & 3.76 & 0.16 & 79\% & 1.03 \\
+Charlevoix & Intraplate & 0.426 & 0.326 & 1.16 & 0.69 & 5\% & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two effects explain the collapse. First, declustering by construction removes triggered events, and the residual background of any ETAS-type model is Poisson by definition. Second, each study region aggregates multiple independent fault strands; by the superposition theorem for renewal processes \citep{daley2003}, the sum of many weakly coupled sources tends to Poisson. The elastic-rebound memory of a single segment is diluted by both effects.
+
+\section{A Faint Residual on the Simplest Segment}
+
+Segmenting the NAF along strike, only the eastern segment ($>37^\circ$E)---its simplest, most isolated portion and the initiation point of the 1939 westward rupture sequence---shows a residual repulsion signal ($\hat\beta\approx0.6$--$0.85$ across both declustering methods, $\langle r\rangle\approx0.48$). This signal is not statistically significant ($n=47$; Poisson not rejected), and the classic Parkfield characteristic-earthquake cycle cannot be recovered from the instrumental catalog (only eight $M\geq4.5$ events). Memory, if present at the mainshock scale, survives only as a faint residue on the simplest segments.
+
+% ═══════════════════════════════════════════════════════════
+\part*{Part III --- Resolution: Scale-Dependent Universality}
+\addcontentsline{toc}{section}{Part III}
+% ═══════════════════════════════════════════════════════════
+
+\section{Where the Memory Lives: Clustering, Not Repulsion}
+
+The rejection of the hypothesis is not a dead end. When aftershocks are \emph{retained}, every zone is strongly clustered: the coefficient of variation exceeds unity in all cases (1.08--3.76), and the Gamma shape parameter lies well below unity ($\gamma=0.16$--$0.69$), the signature of a power-law-tailed clustered process (Table~\ref{tab:main}). The full-catalog spacing ratio falls \emph{below} Poisson---the opposite of repulsion (Figure~\ref{fig:acts}). Declustering transforms this clustering into Poisson (Figure~\ref{fig:decl}). The non-trivial temporal structure thus resides in the aftershock cascade, not in mainshock recurrence---consistent with Corral \citep{corral2004}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figs/real_three_acts.pdf}
+\caption{Left: declustered mainshocks collapse to Poisson ($\langle r\rangle\approx0.39$). Center: full catalogs are clustered (CV$>$1). Right: the Omori $p$-exponent of the isolated cluster process---the non-collapsing invariant.}
+\label{fig:acts}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{figs/real_decluster.pdf}
+\caption{Spacing distributions for Parkfield and Cascadia. The full catalog (red) is sharply peaked at $s\to0$ (clustering); declustering (blue) removes the peak, yielding a Poisson-like form.}
+\label{fig:decl}
+\end{figure}
+
+\section{The Omori Exponent: The Non-Collapsing Invariant}
+
+To probe the cluster process directly, we recorded each aftershock's parent mainshock during Gardner--Knopoff declustering, isolated the aftershock--parent time differences, and fit the modified Omori--Utsu law $n(t)=K/(t+c)^p$ by maximum likelihood \citep{ogata1983}. The resulting decay exponent $p$ varies systematically and does \emph{not} collapse (Table~\ref{tab:main}, last column). The dry, geometrically simple Parkfield segment has the steepest decay ($p=1.28$), whereas fluid-rich subduction interfaces have shallower decays ($p=0.61$--$0.88$), consistent with fluid-driven prolongation of aftershock sequences. Charlevoix produces almost no aftershocks (5\%), too few to fit---itself a meaningful observation about cascade-poor cratonic crust.
+
+This is the key resolution of the investigation. The ``fluid-as-solvent'' intuition of the Part~I hypothesis was correct in spirit but mislocated: fluids do modulate fault dynamics, but their fingerprint is in the aftershock decay rate, not in mainshock recurrence regularity. The physically informative quantity is the Omori $p$-exponent, which does not collapse, rather than a mainshock-repulsion parameter, which does.
+
+\section{Scale-Dependent Universality Classes}
+
+Combining all results with our companion geological study \citep{chen2026geo}, Earth's seismotectonic rhythms occupy three distinct universality classes at three temporal scales (Figure~\ref{fig:scale}):
+\begin{itemize}
+\item \textbf{Cascade scale (hours--days):} Omori clustering, $\gamma<1$, power-law tails.
+\item \textbf{Mainshock scale (years--decades):} Poisson noise, after declustering and spatial superposition.
+\item \textbf{Geological-epoch scale (Myr):} GOE repulsion \citep{chen2026geo}, where long-term tectonic reorganizations exhibit weak level repulsion.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{figs/scale_schematic.pdf}
+\caption{Scale-dependent universality classes spanning twelve orders of magnitude in time. The same Earth system occupies different RMT-related classes at different temporal scales.}
+\label{fig:scale}
+\end{figure}
+
+\section{Discussion and Conclusions}
+
+This investigation traces a complete scientific arc: a physically motivated hypothesis (Part~I), its rejection by real data (Part~II), and a richer resolution (Part~III). The hypothesis that simple faults exhibit GOE mainshock repulsion is rejected; the genuine, non-collapsing invariant is the Omori $p$-exponent, which varies systematically with tectonic setting and fluid involvement. The scale-dependent picture---clustering at short scales, randomness at intermediate scales, repulsion at geological scales---is richer and more faithful than any single-class description, and unifies our geological and seismological studies within one random-matrix-theoretic framework.
+
+We emphasize the methodological lesson of presenting the rejected hypothesis transparently. The forward model of Part~I was not a source of empirical claims but a tool for generating a falsifiable prediction and validating the analysis pipeline, including the estimator-bias and power diagnostics without which the empirical collapse could be misread. Good science is the arc, not only the endpoint.
+
+\textbf{Limitations.} The Omori fits use aggregate cluster populations rather than individual well-recorded sequences; per-sequence fitting would sharpen the $p$ estimates. The instrumental record is too short to capture characteristic-earthquake cycles for most segments. Magnitude homogenization via global regressions introduces scatter. The residual NAF-east signal warrants targeted study with a denser regional catalog.
+
+\section*{Code and Data Availability}
+All code, synthetic and real catalogs, and figures: \url{https://github.com/Ruqing1963/fault-rmt-phase-framework}.\\
+Companion geological study (geological-epoch GOE repulsion): \url{https://zenodo.org/records/20766310}.
+
+\begin{thebibliography}{20}
+\bibitem[At\'as et al.(2013)]{atas2013} At\'as, Y.Y., Bogomolny, E., Giraud, O., Roux, G. (2013). Distribution of the ratio of consecutive level spacings. \textit{Phys. Rev. Lett.}, 110, 084101.
+\bibitem[Chen(2026)]{chen2026geo} Chen, R. (2026). Statistical isomorphism between Phanerozoic tectonic rhythms and Riemann zeta zero spacings. Zenodo, \url{https://zenodo.org/records/20766310}.
+\bibitem[Corral(2004)]{corral2004} Corral, \'A. (2004). Long-term clustering, scaling, and universality in the temporal occurrence of earthquakes. \textit{Phys. Rev. Lett.}, 92, 108501.
+\bibitem[Daley \& Vere-Jones(2003)]{daley2003} Daley, D.J., Vere-Jones, D. (2003). \textit{An Introduction to the Theory of Point Processes}, Vol. I. Springer.
+\bibitem[Gardner \& Knopoff(1974)]{gardner1974} Gardner, J.K., Knopoff, L. (1974). Is the sequence of earthquakes in southern California, with aftershocks removed, Poissonian? \textit{Bull. Seismol. Soc. Am.}, 64, 1363--1367.
+\bibitem[Mehta(2004)]{mehta2004} Mehta, M.L. (2004). \textit{Random Matrices}, 3rd ed. Elsevier.
+\bibitem[Ogata(1983)]{ogata1983} Ogata, Y. (1983). Estimation of the parameters in the modified Omori formula for aftershock frequencies by the MLE procedure. \textit{J. Phys. Earth}, 31, 115--124.
+\bibitem[Reid(1910)]{reid1910} Reid, H.F. (1910). The mechanics of the earthquake. \textit{The California Earthquake of April 18, 1906}, Carnegie Inst.
+\bibitem[Saffer \& Bekins(2003)]{saffer2003} Saffer, D.M., Bekins, B.A. (2003). Hydrologic controls on the mechanics of accretionary wedges. \textit{Geology}, 30, 271--274.
+\bibitem[Scordilis(2006)]{scordilis2006} Scordilis, E.M. (2006). Empirical global relations converting $M_S$ and $m_b$ to moment magnitude. \textit{J. Seismol.}, 10, 225--236.
+\bibitem[Stein(1999)]{stein1999} Stein, R.S. (1999). The role of stress transfer in earthquake occurrence. \textit{Nature}, 402, 605--609.
+\bibitem[Utsu et al.(1995)]{utsu1995} Utsu, T., Ogata, Y., Matsu'ura, R.S. (1995). The centenary of the Omori formula. \textit{J. Phys. Earth}, 43, 1--33.
+\bibitem[Wigner(1957)]{wigner1957} Wigner, E.P. (1957). Characteristic vectors of bordered matrices. \textit{Ann. Math.}, 62, 548--564.
+\bibitem[Zhuang et al.(2002)]{zhuang2002} Zhuang, J., Ogata, Y., Vere-Jones, D. (2002). Stochastic declustering of space-time earthquake occurrences. \textit{J. Am. Stat. Assoc.}, 97, 369--380.
+\end{thebibliography}
+
+\end{document}
