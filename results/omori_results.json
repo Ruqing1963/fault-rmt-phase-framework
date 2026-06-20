@@ -1,0 +1,98 @@
+{
+  "Parkfield": {
+    "group": "Strike-slip",
+    "color": "#2166ac",
+    "mc": 2.2,
+    "n_total": 2479,
+    "n_main": 937,
+    "n_aft": 1542,
+    "aft_frac": 0.6220250100847116,
+    "omori_p": 1.2763323043723862,
+    "omori_c": 0.8209128750471072,
+    "n_aftershocks_fit": 1542
+  },
+  "NAF": {
+    "group": "Strike-slip",
+    "color": "#4393c3",
+    "mc": 4.999999999999997,
+    "n_total": 162,
+    "n_main": 85,
+    "n_aft": 77,
+    "aft_frac": 0.47530864197530864,
+    "omori_p": 0.960497745648025,
+    "omori_c": 0.013218110637739325,
+    "n_aftershocks_fit": 77
+  },
+  "Alpine": {
+    "group": "Strike-slip",
+    "color": "#74add1",
+    "mc": 4.3,
+    "n_total": 68,
+    "n_main": 53,
+    "n_aft": 15,
+    "aft_frac": 0.22058823529411764,
+    "omori_p": 0.6451014841061928,
+    "omori_c": 0.000184866814205617,
+    "n_aftershocks_fit": 15
+  },
+  "Nankai": {
+    "group": "Subduction",
+    "color": "#f4a582",
+    "mc": 4.999999999999997,
+    "n_total": 242,
+    "n_main": 177,
+    "n_aft": 65,
+    "aft_frac": 0.26859504132231404,
+    "omori_p": 0.6133376892890322,
+    "omori_c": 0.0005043878878644734,
+    "n_aftershocks_fit": 65
+  },
+  "Chile": {
+    "group": "Subduction",
+    "color": "#d6604d",
+    "mc": 5.3999999999999995,
+    "n_total": 1207,
+    "n_main": 617,
+    "n_aft": 590,
+    "aft_frac": 0.4888152444076222,
+    "omori_p": 0.8844476739317179,
+    "omori_c": 0.014191591624170557,
+    "n_aftershocks_fit": 590
+  },
+  "Cascadia": {
+    "group": "Subduction",
+    "color": "#b2182b",
+    "mc": 3.7000000000000015,
+    "n_total": 2714,
+    "n_main": 1136,
+    "n_aft": 1578,
+    "aft_frac": 0.5814296241709653,
+    "omori_p": 0.7623476564850347,
+    "omori_c": 0.00511020254708658,
+    "n_aftershocks_fit": 1578
+  },
+  "Charlevoix": {
+    "group": "Intraplate",
+    "color": "#66c2a5",
+    "mc": 2.6000000000000005,
+    "n_total": 73,
+    "n_main": 69,
+    "n_aft": 4,
+    "aft_frac": 0.0547945205479452,
+    "omori_p": NaN,
+    "omori_c": NaN,
+    "n_aftershocks_fit": 4
+  },
+  "Longmenshan": {
+    "group": "Intraplate",
+    "color": "#8da0cb",
+    "mc": 4.700000000000002,
+    "n_total": 591,
+    "n_main": 122,
+    "n_aft": 469,
+    "aft_frac": 0.7935702199661591,
+    "omori_p": 1.0316729668376539,
+    "omori_c": 0.05283483727675862,
+    "n_aftershocks_fit": 469
+  }
+}
