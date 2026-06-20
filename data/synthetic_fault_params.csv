@@ -1,0 +1,9 @@
+key,name,group,b_value,rate_per_yr,mc,beta_in,complexity,fluid,n_events,color,marker
+Parkfield,Parkfield (SAF),Strike-slip,0.90,4.0,3.5,1.50,1.0,1.0,120,#2166ac,o
+NAF,North Anatolian Fault,Strike-slip,1.00,8.0,4.0,1.00,1.5,1.0,150,#4393c3,o
+Alpine,Alpine Fault (NZ),Strike-slip,0.95,3.0,4.0,1.30,1.0,1.5,100,#74add1,o
+Nankai,Nankai Trough,Subduction,0.90,12.0,4.5,0.50,5.0,8.0,160,#f4a582,s
+Chile,Chile Subduction,Subduction,0.95,6.0,5.0,0.60,6.0,7.5,130,#d6604d,s
+Cascadia,Cascadia,Subduction,0.80,2.5,3.5,0.30,4.0,9.0,80,#b2182b,s
+Charlevoix,Charlevoix (Quebec),Intraplate,1.10,4.0,3.0,0.15,7.5,3.0,120,#66c2a5,^
+Longmenshan,Longmenshan (Sichuan),Intraplate,0.80,2.5,4.0,0.25,8.5,4.0,90,#8da0cb,^

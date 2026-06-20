@@ -1,0 +1,102 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2024-01-04T10:54:51.822Z,47.7056,-70.1527,14.093,2.5,ml,14,115,0.196,0.25,us,us6000m1nn,2024-03-09T21:39:18.040Z,"5 km N of La Malbaie, Canada",earthquake,2.67,6.192,0.071,26,reviewed,us,us
+2023-11-30T20:12:17.846Z,47.5536,-70.2725,15.474,2.5,ml,5,176,0.036,0.21,us,us7000lezz,2024-02-06T21:53:55.040Z,"14 km SW of La Malbaie, Canada",earthquake,4.97,2.152,0.256,2,reviewed,us,us
+2023-08-11T13:59:20.418Z,47.6144,-70.0355,12.195,2.5,mb_lg,16,109,0.207,0.26,us,us6000kz8v,2023-10-17T22:01:30.040Z,"9 km ESE of La Malbaie, Canada",earthquake,2.56,5.881,0.295,3,reviewed,us,us
+2023-08-11T03:33:28.128Z,47.5714,-70.1402,19.821,2.6,mb_lg,14,156,0.128,0.47,us,us6000kz6s,2023-10-17T22:01:30.040Z,"St. Lawrence Valley region, Quebec, Canada",earthquake,3.49,3.95,0.142,13,reviewed,us,us
+2022-12-25T09:51:51.026Z,47.4889,-70.1479,12.31,2.9,ml,17,99,0.851,0.64,us,us6000jbr9,2024-01-18T17:39:53.811Z,"15 km NNW of La Pocati?re, Canada",earthquake,2.9,8.7,0.115,10,reviewed,us,us
+2022-11-25T23:34:04.875Z,48.0288,-69.6722,18.566,2.6,ml,9,138,0.652,0.17,us,us7000isip,2023-01-30T06:01:53.040Z,"St. Lawrence Valley region, Quebec, Canada",earthquake,3.24,7.952,0.074,24,reviewed,us,us
+2022-02-19T22:43:05.749Z,47.5045,-70.0662,16.7,2.9,ml,,101,0.181,0.3,us,us7000gmcv,2022-05-04T13:38:43.040Z,"14 km NW of Saint-Pacôme, Canada",earthquake,3.5,3.3,0.064,32,reviewed,us,us
+2022-01-10T07:44:57.734Z,47.652,-69.823,17.97,3.2,mb_lg,,113,0.775,0.33,us,us7000gahx,2022-03-19T22:07:35.040Z,"14 km N of Saint-Pascal, Canada",earthquake,3.5,7.5,0.098,27,reviewed,us,us
+2021-10-19T04:52:59.356Z,47.7631,-69.8984,15.92,2.7,ml,,121,0.36,0.35,us,us6000fw1z,2021-12-25T22:58:50.040Z,"9 km S of Saint-Siméon, Canada",earthquake,2.7,7.6,0.069,28,reviewed,us,us
+2021-06-22T13:00:30.072Z,47.5994,-70.0298,11.87,2.5,ml,,108,0.206,0.47,us,us7000efe5,2021-08-27T18:58:22.040Z,"11 km ESE of La Malbaie, Canada",earthquake,2.6,7,0.069,28,reviewed,us,us
+2021-06-01T03:08:11.105Z,47.6637,-70.1661,13.56,2.5,ml,,112,0.158,0.47,us,us7000e9ae,2021-08-07T22:06:50.040Z,"1 km NW of La Malbaie, Canada",earthquake,2.9,8.2,0.062,34,reviewed,us,us
+2021-04-14T03:05:42.708Z,47.5646,-70.2347,11.87,2.5,ml,,103,0.063,0.18,us,us6000e1pz,2021-06-19T21:25:40.040Z,"11 km SSW of La Malbaie, Canada",earthquake,3.6,4.3,0.077,22,reviewed,us,us
+2020-12-28T14:19:50.178Z,47.6094,-70.2532,12.89,2.7,mb_lg,,77,0.078,0.33,us,us6000d48n,2021-03-06T23:19:55.040Z,"9 km WSW of La Malbaie, Canada",earthquake,3.5,3.1,0.12,18,reviewed,us,us
+2020-08-14T06:59:09.382Z,47.5973,-70.216,12.4,2.9,mb_lg,,106,0.089,0.54,us,us6000bejz,2020-10-24T20:08:50.040Z,"7 km SW of La Malbaie, Canada",earthquake,5.2,8.1,0.071,51,reviewed,us,us
+2020-04-29T18:43:12.127Z,47.2328,-70.3137,14.52,2.5,ml,,127,0.315,0.48,us,us700097d9,2020-07-18T21:57:05.040Z,"3 km WNW of St-Jean-Port-Joli, Canada",earthquake,2.6,6.9,0.128,8,reviewed,us,us
+2019-11-02T13:43:07.653Z,47.8351,-69.8973,14.82,2.8,ml,,126,0.407,0.38,us,us700062gz,2020-01-18T20:00:33.040Z,"1 km SW of Saint-Siméon, Canada",earthquake,3.5,8,0.148,6,reviewed,us,us
+2019-08-31T13:47:52.112Z,47.4761,-70.123,5,2.7,mb_lg,,71,0.155,0.57,us,us70005aru,2019-11-15T17:20:59.040Z,"13 km NNW of La Pocatière, Canada",earthquake,2.4,2,0.106,23,reviewed,us,us
+2019-08-29T12:12:47.107Z,47.303,-70.434,3.69,3.3,mwr,,89,0.256,0.62,us,us700059m4,2019-11-15T17:20:03.040Z,"15 km NW of St-Jean-Port-Joli, Canada",earthquake,3,9.5,0.075,17,reviewed,us,us
+2019-08-08T11:17:39.419Z,47.5036,-70.2758,13.28,2.6,mb_lg,,81,0.056,0.45,us,us600052nv,2019-10-29T20:33:43.040Z,"18 km ENE of Baie-Saint-Paul, Canada",earthquake,1.4,3.3,0.255,4,reviewed,us,us
+2019-06-28T01:16:34.030Z,47.7043,-69.9935,17.48,2.5,ml,,116,0.273,0.37,us,us7000477l,2019-09-14T16:08:18.040Z,"13 km ENE of La Malbaie, Canada",earthquake,1.8,6.8,0.148,6,reviewed,us,us
+2019-06-15T04:15:15.396Z,47.5384,-69.967,14.04,2.5,mb_lg,,104,0.243,0.18,us,us600041cj,2019-09-06T14:25:13.040Z,"12 km W of Saint-Pascal, Canada",earthquake,3.1,7.5,0.193,7,reviewed,us,us
+2019-02-04T02:01:37.280Z,47.5606,-70.4146,19.19,2.7,mb_lg,,100,0.061,0.53,us,us2000jdhg,2019-04-18T19:09:39.040Z,"14 km NNE of Baie-Saint-Paul, Canada",earthquake,3.1,4.6,,,reviewed,us,ott
+2018-11-09T04:12:12.880Z,47.6025,-70.162,11.19,2.6,mb_lg,,107,0.814,0.31,us,us1000hpkz,2019-01-21T16:42:52.040Z,"5 km S of La Malbaie, Canada",earthquake,5,6.7,0.208,6,reviewed,us,us
+2018-04-24T17:36:42.370Z,47.4057,-70.1516,14.02,2.5,mb_lg,,77,0.185,0.62,us,us1000drer,2022-08-08T02:35:39.768Z,"9 km WNW of La Pocatière, Canada",earthquake,6,8.4,0.117,19,reviewed,us,us
+2017-10-17T23:10:41.000Z,47.7406,-69.9216,25.1,2.7,mb_lg,,,,0.36,us,us1000av3m,2018-01-11T02:22:05.040Z,"11 km SSW of Saint-Siméon, Canada",earthquake,4.1,8.1,,,reviewed,ott,ott
+2017-05-23T21:20:24.150Z,47.4084,-70.2685,10.37,2.5,mb_lg,,,,0.73,us,us10008vv4,2017-08-10T01:33:59.040Z,"St. Lawrence Valley region, Quebec, Canada",earthquake,1.1,4.4,,,reviewed,ott,ott
+2017-03-25T08:36:59.940Z,47.4638,-70.1205,10.91,2.5,mb_lg,,,,0.56,us,us20008urn,2017-06-12T19:46:56.040Z,"12 km NNW of La Pocatière, Canada",earthquake,1.4,5.5,,,reviewed,ott,ott
+2016-10-27T23:26:03.000Z,47.49,-70.03,14.5,2.5,mb_lg,,,,0.92,us,us100072jw,2017-01-20T00:31:11.040Z,"11 km NNW of Saint-Pacôme, Canada",earthquake,3,6.5,,,reviewed,ott,ott
+2016-09-20T15:12:06.710Z,47.7997,-69.837,23.17,2.6,mb_lg,,,,0.36,us,us20007g87,2016-12-12T23:01:33.040Z,"5 km SSE of Saint-Siméon, Canada",earthquake,9.8,9.6,,,reviewed,ott,ott
+2016-07-29T19:55:21.320Z,47.4283,-70.1157,19.43,3,mb_lg,,,,0.55,us,us100068ie,2016-10-19T04:51:41.040Z,"St. Lawrence Valley region, Quebec, Canada",earthquake,6.4,7.1,,,reviewed,ott,ott
+2016-05-28T12:10:38.350Z,47.5663,-70.0754,24.4,2.6,mb_lg,,,,0.62,us,us20005yzc,2016-08-10T22:30:24.040Z,"11 km SSE of La Malbaie, Canada",earthquake,5.2,1.7,,,reviewed,ott,ott
+2016-05-12T23:31:09.770Z,47.527,-70.049,20.6,2.7,mb_lg,,,,0.5,us,us10005h0q,2016-07-20T18:10:55.040Z,"15 km NNW of Saint-Pacôme, Canada",earthquake,3,7.2,,,reviewed,ott,ott
+2016-03-18T02:49:47.000Z,47.461,-70.117,12.6,2.7,mb_lg,,,,0.72,us,us20005b66,2016-06-09T21:41:48.040Z,"12 km NNW of La Pocatière, Canada",earthquake,3.3,5.4,,,reviewed,ott,ott
+2016-02-16T05:13:41.430Z,47.5653,-69.9595,14.07,2.5,mb_lg,,,,0.53,us,us10004qqs,2016-04-26T23:28:23.040Z,"12 km WNW of Saint-Pascal, Canada",earthquake,3.7,6,,,reviewed,ott,ott
+2016-02-04T12:38:28.000Z,47.219,-70.365,9.5,2.5,mb_lg,,,,0.44,us,us20004y06,2016-04-14T22:51:44.040Z,"7 km W of St-Jean-Port-Joli, Canada",earthquake,5.3,8,,,reviewed,ott,ott
+2015-09-13T00:45:18.530Z,47.4246,-70.3593,11.29,3.1,mb_lg,,,,0.64,us,us20003j4c,2022-08-01T04:44:25.493Z,"10 km E of Baie-Saint-Paul, Canada",earthquake,1.9,6.4,,,reviewed,ott,ott
+2015-09-05T07:01:17.000Z,47.713,-70.083,13.9,2.7,mb_lg,,,,0.58,us,us20003gv3,2015-12-05T01:40:27.040Z,"8 km NE of La Malbaie, Canada",earthquake,4.2,6,,,reviewed,ott,ott
+2015-07-12T04:17:38.000Z,47.484,-70.07,10.9,2.8,mb_lg,,,,0.54,us,us20002x1a,2015-10-09T20:19:13.040Z,"12 km NW of Saint-Pacôme, Canada",earthquake,5.7,7.9,,,reviewed,ott,ott
+2015-06-28T09:15:03.000Z,47.394,-70.092,7.4,3.3,mb_lg,,,,0.58,us,us10002m6v,2022-07-31T15:32:30.146Z,"5 km NW of La Pocatière, Canada",earthquake,3.6,6.6,,,reviewed,ott,ott
+2015-04-21T11:16:46.540Z,47.478,-70.187,11.57,2.9,mb_lg,,,,0.44,us,us2000289u,2015-06-26T23:16:00.040Z,"16 km NW of La Pocatière, Canada",earthquake,1.2,4.3,,,reviewed,ott,ott
+2015-04-10T23:28:27.000Z,47.7,-70.131,7.7,2.7,mb_lg,,,,0.33,us,us200025w2,2015-06-22T23:18:56.040Z,"5 km NNE of La Malbaie, Canada",earthquake,5.9,6.6,,,reviewed,ott,ott
+2015-01-21T05:31:59.000Z,47.371,-70.217,14.5,3.7,mb_lg,,,,0.73,us,usc000ti4g,2015-04-20T16:05:38.040Z,"13 km W of La Pocatière, Canada",earthquake,5.4,7.6,,,reviewed,ott,ott
+2014-08-02T18:38:40.200Z,47.5906,-70.1818,14.81,3,mb_lg,,,,1.28,us,usb000rzl2,2014-10-29T19:52:55.000Z,"7 km SSW of La Malbaie, Canada",earthquake,,7.8,,,reviewed,ott,ott
+2014-02-28T20:28:36.240Z,47.4897,-70.0284,8.07,2.6,mb_lg,,,,0.69,us,usc000p4z4,2014-05-13T21:36:45.000Z,"11 km NNW of Saint-Pacôme, Canada",earthquake,,8,,,reviewed,ott,ott
+2014-01-14T19:23:04.730Z,47.572,-70.002,14,2.6,mb_lg,,,,0.26,us,usb000m2ng,2014-03-15T03:40:37.000Z,"14 km SE of La Malbaie, Canada",earthquake,,6,,,reviewed,ott,ott
+2013-12-11T07:47:21.000Z,47.223,-70.4,12.5,3.4,mb_lg,,,,0.88,us,usc000ljy4,2014-02-21T23:00:51.000Z,"9 km W of St-Jean-Port-Joli, Canada",earthquake,,7.2,,,reviewed,ott,ott
+2013-11-15T00:13:33.000Z,47.617,-69.821,17.4,2.7,mb_lg,,,,1.45,us,usb000l0rw,2014-01-31T21:22:20.000Z,"11 km N of Saint-Pascal, Canada",earthquake,,6.9,,,reviewed,ott,ott
+2013-10-04T13:13:02.390Z,47.6555,-69.8918,12.29,2.5,mb_lg,,,,0.46,us,usb000k7qp,2013-12-19T02:51:34.000Z,"16 km NNW of Saint-Pascal, Canada",earthquake,,5.2,,,reviewed,ott,ott
+2013-07-11T20:16:07.000Z,47.81,-70.049,14.9,4.4,mb,48,100,,,us,usp000k1wx,2016-05-26T21:24:48.900Z,"13 km WSW of Saint-Siméon, Canada",earthquake,,,,9,reviewed,ott,us
+2013-04-27T06:46:12.810Z,47.783,-70.05,5,2.7,mblg,26,100,,,us,us2013pmci,2014-11-07T01:50:39.040Z,"14 km WSW of Saint-Siméon, Canada",earthquake,,,,,reviewed,ott,ott
+2013-02-08T12:47:27.770Z,47.782,-70.046,5.1,2.7,mblg,13,114.7,,,us,usp000jz62,2014-11-07T01:50:04.852Z,"14 km WSW of Saint-Siméon, Canada",earthquake,,,,,reviewed,ott,ott
+2012-12-12T17:46:06.000Z,47.785,-70.049,5.3,4.4,mblg,95,40.5,,,us,usp000jww2,2015-03-24T02:02:43.732Z,"14 km WSW of Saint-Siméon, Canada",earthquake,,,,,reviewed,ott,ott
+2012-11-01T23:28:42.390Z,47.524,-70.281,11.6,2.9,mblg,15,100.5,,,us,usp000juwr,2014-11-07T01:49:16.568Z,"17 km SSW of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+2012-08-20T00:47:49.940Z,47.716,-70.135,10.4,2.6,mblg,14,85.2,,,us,usp000jqhf,2014-11-07T01:48:36.018Z,"7 km N of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+2012-08-18T05:50:01.170Z,47.229,-70.772,18,2.7,mblg,15,86.5,,,us,usp000jqer,2014-11-07T01:48:35.326Z,"22 km NNE of Beaupré, Canada",earthquake,,,,,reviewed,ott,ott
+2012-08-04T18:27:49.630Z,47.234,-70.597,18,3.8,mblg,49,61.1,,,us,usp000jpwj,2015-03-24T02:36:05.435Z,"24 km SSW of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,ott
+2012-05-15T04:41:26.290Z,47.403,-70.38,8.4,2.5,mblg,19,54.6,,,us,usp000jkes,2014-11-07T01:47:47.636Z,"9 km ESE of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,ott
+2012-03-25T11:30:49.910Z,47.253,-70.268,24.8,2.9,mblg,35,41,,,us,usp000jgru,2014-11-07T01:47:18.963Z,"4 km N of St-Jean-Port-Joli, Canada",earthquake,,,,,reviewed,ott,ott
+2012-02-24T22:47:22.370Z,47.616,-70.226,1.4,4,mblg,63,40.4,,,us,usp000jfbf,2015-03-24T02:13:54.845Z,"6 km SW of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+2012-01-07T21:46:35.270Z,47.848,-69.658,18,2.6,mblg,21,118.4,,,us,usp000jd6n,2014-11-07T01:46:44.755Z,"8 km WNW of Rivière-du-Loup, Canada",earthquake,,,,,reviewed,ott,ott
+2011-11-29T17:02:25.000Z,47.55,-70.25,14,3.4,mblg,25,193.1,,,us,usp000jbm2,2014-11-07T01:46:25.859Z,"13 km SSW of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+2010-10-28T23:06:09.850Z,47.425,-70.476,7.9,3,mblg,15,82.9,,,us,usp000hnqn,2014-11-07T01:42:46.750Z,"2 km SE of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,ott
+2010-10-18T01:58:21.700Z,47.694,-69.952,23.2,2.8,mblg,21,89.1,,,us,usp000hn80,2022-07-18T22:20:09.935Z,"15 km ENE of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+2010-10-07T23:10:53.420Z,47.406,-70.327,12.7,3,mblg,16,69.1,,,us,usp000hmr4,2014-11-07T01:42:39.688Z,"13 km ESE of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,ott
+2010-08-11T13:03:21.930Z,47.418,-70.307,12.9,2.5,mblg,8,115.8,,,us,usp000hhyf,2014-11-07T01:42:13.132Z,"14 km E of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,ott
+2010-05-05T22:19:18.100Z,47.576,-70.088,19.1,3.1,mblg,40,48.4,,,us,usp000hcch,2022-07-16T12:54:34.164Z,"9 km SSE of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+2010-03-10T06:41:18.920Z,47.685,-70.103,10.4,3.1,mblg,26,48.3,,,us,usp000h925,2014-11-07T01:40:58.098Z,"5 km NE of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+2009-06-18T02:47:52.000Z,47.54,-69.89,15.8,2.9,mblg,31,49.3,,,us,usp000gyau,2014-11-07T01:39:10.267Z,"6 km WNW of Saint-Pascal, Canada",earthquake,,,,,reviewed,ott,ott
+2008-11-15T10:52:53.420Z,47.74,-69.713,20,3.6,mwr,32,97.9,,,us,usp000gnrd,2014-11-07T01:37:44.395Z,"16 km SW of Rivière-du-Loup, Canada",earthquake,,,,,reviewed,ott,slm
+2008-01-03T09:37:55.550Z,47.382,-70.312,13.5,3.4,mblg,31,39.5,,,us,usp000fvwe,2014-11-07T01:34:36.034Z,"15 km ESE of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,ott
+2006-08-08T03:09:44.420Z,47.69,-70.006,19.4,2.8,mblg,41,41.6,,,us,usp000eqfq,2014-11-07T01:29:55.748Z,"11 km ENE of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+2006-04-07T08:31:40.000Z,47.29,-70.47,0,3.7,mwr,17,171.8,,,us,usp000edwa,2022-07-01T20:05:14.715Z,"16 km S of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,slm
+2005-03-06T06:17:49.000Z,47.75,-69.73,13.3,4.9,mb,199,30.1,,,us,usp000dhn5,2023-01-21T02:22:24.270Z,"15 km SE of Saint-Siméon, Canada",earthquake,,,,78,reviewed,ott,us
+2003-06-13T11:34:40.000Z,47.7,-70.09,11.1,4.1,mblg,19,119.6,,,us,usp000bzsc,2014-11-07T01:18:55.309Z,"6 km NE of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+2002-08-17T05:53:54.000Z,47.33,-70.51,13.3,3.8,mblg,10,,,,us,usp000ba20,2014-11-07T01:16:17.192Z,"12 km S of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,ott
+2000-06-15T09:25:54.000Z,47.67,-69.81,10.6,3.7,mblg,5,,,,us,usp0009un1,2014-11-07T01:10:22.703Z,"16 km N of Saint-Pascal, Canada",earthquake,,,,,reviewed,ott,ott
+1997-10-28T11:44:18.000Z,47.67,-69.91,11.7,4.8,mb,,,,,us,usp00089qj,2020-09-15T19:49:41.439Z,"18 km E of La Malbaie, Canada",earthquake,,,,3,reviewed,ott,us
+1997-08-20T09:12:04.000Z,47.53,-70.29,18,3.7,mblg,,,,,us,usp00086gb,2014-11-07T01:03:19.667Z,"17 km SW of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+1994-09-25T00:53:28.000Z,47.77,-69.96,17,4.1,mb,,,,,us,usp0006jyx,2014-11-07T00:56:19.739Z,"10 km SW of Saint-Siméon, Canada",earthquake,,,,1,reviewed,ott,us
+1993-12-30T23:01:47.500Z,47.453,-70.367,7,3.8,mblg,,,,,us,usp00065us,2014-11-07T00:54:39.283Z,"10 km E of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,ott
+1993-12-01T12:47:15.000Z,47.53,-70.06,8,3.5,mblg,,,,,us,usp00064h1,2014-11-07T00:54:30.854Z,"15 km SSE of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+1992-05-01T00:37:51.400Z,47.446,-70.407,2.8,3.2,mblg,,,,,us,usp00056re,2014-11-07T00:50:32.163Z,"6 km E of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,ott
+1991-12-08T03:00:30.000Z,47.7,-69.8,18,3.6,mb,,,,,us,usp000505v,2014-11-07T00:49:42.904Z,"17 km SSE of Saint-Siméon, Canada",earthquake,,,,2,reviewed,ott,us
+1989-03-11T08:31:52.100Z,47.7,-69.9,18,4.4,mblg,,,,,us,usp0003suj,2014-11-07T00:43:48.577Z,"16 km S of Saint-Siméon, Canada",earthquake,,,,,reviewed,ott,ott
+1989-03-09T09:41:32.400Z,47.7,-69.89,18,3.9,mb,,,,,us,usp0003ssa,2014-11-07T00:43:48.141Z,"16 km S of Saint-Siméon, Canada",earthquake,,,,1,reviewed,ott,us
+1989-01-19T21:36:38.400Z,48.071,-70.96,30,3.9,mblg,,,,,us,usp0003r0n,2014-11-07T00:43:27.960Z,"39 km SSE of Saguenay, Canada",earthquake,,,,,reviewed,ott,us
+1986-09-19T15:53:01.000Z,47.3,-70.32,22,4.2,mblg,,,,,us,usp0002y7n,2014-11-07T00:39:02.019Z,"10 km NNW of St-Jean-Port-Joli, Canada",earthquake,,,,,reviewed,ott,ott
+1986-01-11T13:30:28.000Z,47.7,-70.18,18,4,mblg,,,,,us,usp0002pz1,2014-11-07T00:37:46.931Z,"5 km NNW of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+1985-03-03T12:15:17.000Z,47.39,-70.48,14,3.2,mblg,,,,,us,usp0002ccp,2014-11-07T00:36:15.688Z,"5 km SSE of Baie-Saint-Paul, Canada",earthquake,,,,,reviewed,ott,ott
+1983-06-04T05:00:23.000Z,47.46,-69.65,10,3,mblg,,,,,us,usp0001vwq,2014-11-07T00:33:17.111Z,"13 km ESE of Saint-Pascal, Canada",earthquake,,,,,reviewed,ott,ott
+1983-06-02T06:30:23.000Z,47.45,-70.22,10,3.5,mblg,,,,,us,usp0001vve,2014-11-07T00:33:16.303Z,"16 km WNW of La Pocatière, Canada",earthquake,,,,,reviewed,ott,wes
+1983-05-16T02:01:57.000Z,47.7,-69.93,10,4.1,mblg,,,,,us,usp0001vda,2014-11-07T00:33:10.687Z,"16 km SSW of Saint-Siméon, Canada",earthquake,,,,,reviewed,ott,wes
+1982-12-04T16:08:32.000Z,47.5,-70.2,18,4,mblg,,,,,us,usp0001r91,2014-11-07T00:32:18.391Z,"17 km SSW of La Malbaie, Canada",earthquake,,,,,reviewed,ott,ott
+1979-08-19T22:49:31.000Z,47.64,-69.959,18,4.6,mb,,,,,us,usp00012hb,2020-04-16T20:25:05.935Z,"14 km E of La Malbaie, Canada",earthquake,,,,,reviewed,o,us
+1978-08-14T22:55:58.000Z,47.669,-70.22,18,3.2,,,,,,us,usp0000w2f,2014-11-06T23:21:51.493Z,"5 km WNW of La Malbaie, Canada",earthquake,,,,,reviewed,c,wes
+1978-05-26T02:31:40.000Z,47.721,-69.989,15,3.2,,,,,,us,usp0000urp,2014-11-06T23:21:49.352Z,"14 km ENE of La Malbaie, Canada",earthquake,,,,,reviewed,c,ott
+1978-04-08T08:21:45.000Z,47.751,-69.89,22,3,,,,,,us,usp0000tza,2014-11-06T23:21:48.385Z,"10 km S of Saint-Siméon, Canada",earthquake,,,,,reviewed,c,wes
+1977-02-14T00:34:42.200Z,47.42,-69.97,0,3.3,,,,,,us,usp0000mjh,2014-11-06T23:21:39.854Z,"2 km NW of Saint-Pacôme, Canada",earthquake,,,,,reviewed,t,wes
+1976-10-23T20:58:18.000Z,47.82,-69.79,18,3.8,mb,,,,,us,usp0000k0j,2014-11-06T23:21:37.837Z,"7 km ESE of Saint-Siméon, Canada",earthquake,,,,,reviewed,c,us
+1975-11-26T01:55:35.000Z,47.67,-70.07,9,2.7,ml,,,,,us,usp0000dqr,2014-11-06T23:21:32.807Z,"6 km ENE of La Malbaie, Canada",earthquake,,,,,reviewed,c,ott
+1975-11-25T23:29:14.000Z,47.62,-70.09,9,2.9,ml,,,,,us,usp0000dqp,2014-11-06T23:21:32.806Z,"6 km SE of La Malbaie, Canada",earthquake,,,,,reviewed,c,ott
